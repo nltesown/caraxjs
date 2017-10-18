@@ -1,0 +1,34 @@
+body {
+  background-color: #369;
+  font-family: Source Sans Pro; font-size: 15px;
+  line-height: 140%;
+}
+
+ul, li {
+  padding: 0; margin: 0; list-style-type: none;
+}
+
+.container {
+  display: block; overflow: hidden;
+  background-color: #fff;
+  /*min-height: 100vh;*/
+  width: 1140px; margin: 0 auto;
+}
+
+.cols {
+  overflow: hidden;
+  margin: 72px 0;
+  outline: solid 3px green;
+}
+
+.col {
+  float: left;
+  padding: 12px;
+  outline: solid 1px red;
+  box-sizing: border-box;
+}
+
+#col1 { width: 33%; }
+#col2 { width: 33%; }
+#col3 { width: 20%; }
+#col4 { width: 14%;}
